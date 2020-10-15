@@ -1,0 +1,20 @@
+<suite>
+	<suiteSettings>
+		  <reportingPath>reports/Regression/report.html</reportingPath>
+		  <executionEnv>MQA</executionEnv>
+	</suiteSettings>
+
+
+	<Configurations>
+	  <Configuration>
+	  	<configID>1</configID>
+	  	<browsers>chrome</browsers>
+	  	<featuresPath>src/test/resources/FeaturesFiles</featuresPath>
+	    <glue>com.mazestoautomation.MazestoUIScripts.automation.step_definitions</glue>
+	    <tags>@tag</tags>
+	    <parallelSwitch>true</parallelSwitch>
+	    <degreeOfParallelism>10</degreeOfParallelism>
+	  </Configuration>	
+	</Configurations>
+</suite>
+
